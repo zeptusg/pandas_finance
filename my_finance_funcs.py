@@ -49,11 +49,14 @@ def main():
     daily_average_series = get_daily_average(df)
     daily_high_and_low_df = get_daily_high_low(df)
 
+    # 1. print series of daily average prices.
     print("Daily average prices -")
     print(daily_average_series)
+    # 2. print DateFrame of daily highest and lowest price.
     print("Daily highest and lowset price -")
     print(daily_high_and_low_df)
 
+    # 3. draw a graph for 26/02/2018 price change.
     get_graph_by_date(df, r"26/02/2018")
 
 
