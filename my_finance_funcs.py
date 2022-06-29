@@ -59,6 +59,8 @@ def main():
     # 3. draw a graph for 26/02/2018 price change.
     get_graph_by_date(df, r"26/02/2018")
 
+    input("Press Enter to continue")
+
 
 if __name__ == "__main__":
     main()
